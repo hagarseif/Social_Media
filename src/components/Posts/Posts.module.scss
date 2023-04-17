@@ -1,0 +1,175 @@
+.posts {
+  margin-left: 2rem;
+  width: 50%;
+  .share {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3.4rem;
+
+    .icon {
+      background-color: var(--back-icon-color);
+      color: var(--white-color);
+      padding: 0.8rem 1rem;
+      border-radius: 3px 0 0 3px;
+      -webkit-border-radius: 3px 0 0 3px;
+      -moz-border-radius: 3px 0 0 3px;
+      -ms-border-radius: 3px 0 0 3px;
+      -o-border-radius: 3px 0 0 3px;
+      height: 100%;
+
+      .star {
+        font-size: 1.4rem;
+      }
+    }
+    p {
+      background-color: var(--white-color);
+      padding: 1.2rem;
+      width: 95%;
+      height: 100%;
+      font-size: 0.8rem;
+      color: var(--text-color);
+      border-radius: 0 3px 0 3px;
+      -webkit-border-radius: 0 3px 0 3px;
+      -moz-border-radius: 0 3px 0 3px;
+      -ms-border-radius: 0 3px 0 3px;
+      -o-border-radius: 0 3px 0 3px;
+    }
+  }
+  .post {
+    background-color: var(--white-color);
+    padding: 1.4rem;
+    margin-top: 1rem;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    width: 100%;
+    .more_menu{
+        position: relative;
+        transition-duration: .3s;
+        &:hover .menu
+        {
+            display: block;
+        }
+        .menu{
+            transition: .3s;
+            background-color: var(--white-color);
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            position: absolute;
+            left: -8rem;
+            width: 10rem;
+            display: none;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s;
+            ul{
+                padding:0 1rem;
+                padding-top: 1rem ;
+               
+                li{
+                    color: var(--bold-text);
+                    font-size: .9rem;
+                    margin-bottom: 1rem;
+                    cursor: pointer;
+                    &:hover{
+                        color: var(--red-color);
+                    }
+                }
+            }
+}
+    }
+    .p_name {
+      display: flex;
+      justify-content: space-between;
+      .info {
+        display: flex;
+        .img {
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+        }
+        .text {
+          margin-left: 1rem;
+          h6 {
+            font-size: 0.9rem;
+            color: var(--bold-text);
+          }
+          span {
+            font-size: 0.7rem;
+            color: var(--text-color);
+          }
+        }
+      }
+    }
+    p {
+      margin: 1rem 0 ;
+      color: var(--text-color);
+      font-size: .9rem;
+    }
+  
+    .m_content{
+            width: 100%;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+           
+        }
+    .content {
+      width: 48%;
+      margin: 1%;
+      height: 280px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      
+    }
+    .reacts{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1rem;
+        border-top: 1px solid #e6ecf5;
+        padding-top: 1rem ;
+
+        .comm_share,.comment,.share_icon,.likes{
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            .icon{
+                font-size: 1.3rem;
+                color: var(--icon-color);
+            }
+            span{
+                font-size: .9rem;
+                color: var(--icon-color);
+                margin-left: .4rem;
+
+            }
+        }
+
+
+    }
+  }
+}
+
+@media(max-width:1120px){
+  .posts{
+      width: 100%;
+      margin-left: 0;
+  }
+
+}

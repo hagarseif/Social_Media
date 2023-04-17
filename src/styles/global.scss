@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Roboto:wght@100;300;400;500&family=RocknRoll+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto';
+    background-color: var(--body-color);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.b-container{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+.main-posts{
+    margin: calc( var(--nav-height) + 2.5rem) calc( var(--nav-height) + 3rem);
+    width: 90%;
+    display: flex;
+}
+@media(max-width:770px){
+    .main-posts{
+        margin:calc( var(--nav-height) + 2rem) 2rem;
+    }
+}

@@ -1,0 +1,104 @@
+.fav_page{
+    width: 25%;
+    margin-left: 2rem;
+.fav{
+    background-color: #ff5e3a;
+    padding: 1.5rem;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: var(--white-color);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .icons{
+        display: flex;
+        justify-content: space-between;
+        .icon{
+            font-size: 1.4rem;
+        }
+    }
+    .text{
+        span{
+            font-size: .6rem;
+        }
+        h3{
+            font-size: 1.8rem;
+            font-weight: 400;
+        }
+        button{
+            border: 0;
+            background-color: #3f4257;
+            padding: 8px 25px;
+            color: var(--white-color);
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            margin-top: 2rem;
+}
+    }
+}
+    .pages{
+        background-color: var(--white-color);
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        margin-top: 2rem;
+        .f_page{
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5rem;
+            border-bottom: 1px solid #e6ecf5;
+            h6{
+                color: var(--bold-text);
+                font-size: .9rem;
+            }
+            .more{
+                font-size: 1.3rem;
+                color: var(--icon-color);
+            }
+        }
+        .page_fav{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem;
+            .img{
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                margin: .3rem;
+            }
+            .plus{
+                background-color: #ff5e3a;
+                color: var(--white-color);
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                margin: .3rem;
+                width: 35px;
+                height: 35px;
+                font-size: .8rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+}
+        }
+}
+}
+@media(max-width:1120px){
+    .fav_page{
+        display: none;
+    }
+
+}

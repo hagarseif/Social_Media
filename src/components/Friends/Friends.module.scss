@@ -1,0 +1,82 @@
+
+    .friend_page{
+        width: 22%;
+        .friend{
+            background-color: var(--white-color);
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            margin-bottom: 1.2rem;
+
+            .suggestion
+            {
+                display: flex;
+                border-bottom: 1px solid #e6ecf5;
+                padding: 1.2rem;
+                justify-content: space-between;
+                align-items: center;
+                h6{
+                    font-size: .9rem;
+                    color: var(--bold-text);
+                }
+                .icon{
+                    color: var(--icon-color);
+                    font-size: 1.3rem;
+                }
+            }
+            .f_common{
+                display: flex;
+                align-items: center;
+                padding: 1.2rem 0;
+                justify-content: space-evenly;
+                &:not(:last-child){
+                    border-bottom: 1px solid #e6ecf5;
+                }
+                .icon{
+                    background-color: var(--blue-light);
+                    color: var(--white-color);
+                    font-size: 2.4rem;
+                    padding: .3rem .5rem;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    -o-border-radius: 3px;
+                    }
+                    .star{
+                        font-size: 1.5rem;
+                    }
+                .img{
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    }
+                    .text{
+                        width: 50%;
+
+                        h6{
+                            font-size: .8rem;
+                            color: var(--bold-text);
+                        }
+                        span{
+                            color: var(--text-color);
+                            font-size: .7rem;
+                        }
+                    }
+                   
+            }
+        }
+
+    }
+
+
+@media(max-width:1120px){
+    .friend_page{
+        display: none;
+    }
+
+}
